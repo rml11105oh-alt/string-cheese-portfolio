@@ -29,6 +29,20 @@ The system routes user requests through a structured workflow using LangGraph, c
 
 ---
 
+## Use of AI Tools
+
+This project was developed for the course **Creating with AI in the Loop**, where the goal was to design and build software while actively collaborating with AI tools throughout the development process.
+
+AI tools were used in two main ways:
+
+1. **As part of the application itself**  
+   String Cheese uses a large language model through Google Gemini to generate dietary plans, format recipe search results, and provide natural-language responses. The app combines LLM-based generation with deterministic tools for calorie, macro, and weight-planning calculations.
+
+2. **As a development assistant**  
+   During development, AI tools were used to help brainstorm features, plan the application structure, debug code, improve documentation, and refine the LangGraph workflow. Human team members made the final design decisions, reviewed generated code, tested functionality, and integrated the system into the final project.
+
+This project reflects an “AI in the loop” approach: AI supported both the user-facing experience and the development process, but the final implementation, evaluation, and project direction were guided by the team.
+
 ## Features
 
 ### Dietary Plan Generator

@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "String Cheese"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: README.md
+        text: README
+    right:
+      - icon: github
+        href: https://github.com/rml11105oh-alt/string-cheese-portfolio
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    page-layout: full
