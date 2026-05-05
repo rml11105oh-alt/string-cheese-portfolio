@@ -64,8 +64,6 @@ The goal of the project was to explore how AI can be used both **inside an appli
 
 :::
 
-> Replace these placeholder image names with your actual screenshot filenames.
-
 ---
 
 ## Main Features
