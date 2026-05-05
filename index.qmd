@@ -133,3 +133,4 @@ route_request
 tool-specific node
     ↓
 format_response
+```
