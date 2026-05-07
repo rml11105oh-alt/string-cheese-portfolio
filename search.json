@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "String Cheese: AI Dietary Assistant",
+    "section": "",
+    "text": "String Cheese is an AI-powered dietary assistant that helps users plan meals, track nutrition, and search recipes from both built-in and user-uploaded cookbooks.\nThe project was created for Creating with AI in the Loop, a course focused on building software while actively collaborating with AI tools. String Cheese combines deterministic nutrition tools with LLM-generated planning and PDF-based recipe retrieval."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "String Cheese: AI Dietary Assistant",
+    "section": "",
+    "text": "String Cheese is an AI-powered dietary assistant that helps users plan meals, track nutrition, and search recipes from both built-in and user-uploaded cookbooks.\nThe project was created for Creating with AI in the Loop, a course focused on building software while actively collaborating with AI tools. String Cheese combines deterministic nutrition tools with LLM-generated planning and PDF-based recipe retrieval."
+  },
+  {
+    "objectID": "index.html#team",
+    "href": "index.html#team",
+    "title": "String Cheese: AI Dietary Assistant",
+    "section": "Team",
+    "text": "Team\n\nFreddy Melges\nGillian Donley\nRaighen Ly"
+  },
+  {
+    "objectID": "index.html#project-goals",
+    "href": "index.html#project-goals",
+    "title": "String Cheese: AI Dietary Assistant",
+    "section": "Project Goals",
+    "text": "Project Goals\nString Cheese functions as a “pocket dietitian” that supports users with:\n\nPersonalized dietary plans\nWeight planning for losing, maintaining, or gaining weight\nCalorie tracking\nMacro tracking\nRecipe search from PDFs\nCustom cookbook PDF uploads\n\nThe goal of the project was to explore how AI can be used both inside an application and during the development process."
+  },
+  {
+    "objectID": "index.html#application-screenshots",
+    "href": "index.html#application-screenshots",
+    "title": "String Cheese: AI Dietary Assistant",
+    "section": "Application Screenshots",
+    "text": "Application Screenshots\n\nHome PageWeight PlannerCalorie Counter’s Macro TrackerCalorie Counter’s Macro TrackerDietary Plan GeneratorRecipe SearchPDF Upload\n\n\n\n\n\nString Cheese home page\n\n\n\n\n\n\n\nWeight Planner page\n\n\n\n\n\n\n\nCalorie Counter’s Macro Tracker page\n\n\n\n\n\n\n\nCalorie Counter page\n\n\n\n\n\n\n\nDietary Plan generator\n\n\n\n\n\n\n\nRecipe Search feature\n\n\n\n\n\n\n\nPDF upload sidebar"
+  },
+  {
+    "objectID": "index.html#main-features",
+    "href": "index.html#main-features",
+    "title": "String Cheese: AI Dietary Assistant",
+    "section": "Main Features",
+    "text": "Main Features\n\nDietary Plan Generator\nThe dietary plan generator creates multi-day meal plans based on user inputs such as:\n\nGoal: lose, maintain, or gain weight\nTarget calories\nDietary preferences\nAllergies\nCustom notes\n\nGenerated plans use Gemini while following built-in safety constraints.\n\n\nWeight Planning Tool\nThe weight planning tool calculates:\n\nResting Metabolic Rate\nMaintenance calories\nTarget calorie intake\n\nThis helps users estimate a calorie goal based on their body information and dietary goal.\n\n\nCalorie Counter\nThe calorie counter tracks total calories and macronutrients from user input. It can support daily, weekly, or monthly tracking.\n\n\nMacro Tracker\nThe macro tracker breaks calorie targets into:\n\nProtein\nCarbohydrates\nFats\n\nThe distribution can be adjusted based on the user’s goal.\n\n\nRecipe Library and PDF Upload\nString Cheese includes preloaded recipe documents and also allows users to upload their own cookbook PDFs. Uploaded recipes are indexed and made searchable.\n\n\nRecipe Search\nRecipe search allows users to search for meals using ingredients and constraints such as:\n\nHigh protein\nQuick meals\nVegan meals\nMeals using specific ingredients\n\nPDFs are parsed, indexed, searched, filtered, ranked, and then formatted into readable recipe results."
+  },
+  {
+    "objectID": "index.html#technical-architecture",
+    "href": "index.html#technical-architecture",
+    "title": "String Cheese: AI Dietary Assistant",
+    "section": "Technical Architecture",
+    "text": "Technical Architecture\nString Cheese uses a structured workflow built with LangGraph.\nparse_input\n    ↓\nroute_request\n    ↓\ntool-specific node\n    ↓\nformat_response"
+  }
+]
